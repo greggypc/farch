@@ -65,7 +65,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
       '@type': 'Person',
       name: author,
     },
-    copyrightYear: '2019',
+    copyrightYear: '2020',
     creator: {
       '@type': 'Person',
       name: author,
@@ -133,7 +133,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
         '@type': 'Person',
         name: author,
       },
-      copyrightYear: '2019',
+      copyrightYear: '2020',
       creator: {
         '@type': 'Person',
         name: author,
@@ -184,7 +184,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
-        <meta name="gatsby-starter" content="Gatsby Starter Portfolio Jodie" />
+        {/* <meta name="gatsby-starter" content="Gatsby Starter Portfolio Jodie" /> */}
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!individual && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {individual && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}

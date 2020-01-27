@@ -13,12 +13,11 @@ const About = () => {
 
   return (
     <Layout>
-      <SEO title="About | Jodie" desc="Hi. I'm LekoArts! You can visit my website or my other Gatsby projects." />
+      <SEO title="About | Faye + Walker Architects" desc="Faye + Walker is an Austin based multidisciplinary firm working primarily in the medium of Architecture. Our vision is to facilitate thoughtful dialog about space, function and individuality." />
       <AnimatedBox style={pageAnimation} py={[6, 6, 6, 8]} px={[6, 6, 8, 6, 8, 13]}>
-        <h1>Hi. I'm LekoArts!</h1>
+        <h1>Faye + Walker Architects</h1>
         <p>
-          You can visit my <a href="https://www.lekoarts.de/en">website</a> or my other{' '}
-          <a href="https://gatsby-starter-portfolio.netlify.com">Gatsby projects</a>.
+        Faye and Walker is an emerging Austin based multidisciplinary firm working primarily in the medium of Architecture. Our vision is to facilitate thoughtful dialog about space, function and individuality. We work to create spaces that are experienced not just physically or visually, but emotionally and intuitively. Through the design process we encourage clients to learn more about themselves and how they interact with the built environment. Our approach is based on communication, patience, sensitivity and respect. We work collaboratively to achieve simple, unique design solutions. We are sensitive to the consequences of our work and give attention to the economic, ecological, social and emotional context of each project.
         </p>
       </AnimatedBox>
     </Layout>
