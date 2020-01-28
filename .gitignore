@@ -59,7 +59,6 @@ typings/
 .env.*
 
 .cache/
-public
 results
 yarn-error.log
 .idea
