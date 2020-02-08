@@ -135,6 +135,10 @@ const reset = css`
   textarea {
     touch-action: manipulation;
   }
+  /* a{
+    color: #ff0000;
+    text-decoration: none;
+  } */
 `
 
 export default reset

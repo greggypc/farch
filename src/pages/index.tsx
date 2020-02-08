@@ -69,6 +69,7 @@ const Area = styled(animated.div)`
       'three-projects'
       'three-projects'
       'three-projects'
+      'three-projects'
       'instagram';
   }
 `

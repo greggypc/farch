@@ -5,7 +5,14 @@
   color: "white"
   images: "elephant-house"
   cover: "./elephant-house/elephant02.jpg"
-  desc: "The seed for the Elephant House came in the form of a particular material; corrugated fiber cement panels. This material has been in use for some time in Europe, primarily as roofing material for large industrial buildings. There is no other way to describe the appearance and texture of the material than to compare it to the hide of an elephant. <br /><br /> The form of the house is simple and monolithic, portrayed as if in the midst of an archaeological dig, propped up on wooden supports as the interior, rendered in red handmade brick, is revealed through the process of subtraction. The deck between the house and garage creates an open air plaza, upon which the ever-present breeze can be enjoyed."
+  desc: "The seed for the Elephant House came in the form of a particular material; corrugated fiber cement panels. 
+        This material has been in use for some time in Europe, primarily as roofing material for large industrial buildings. 
+        There is no other way to describe the appearance and texture of the material than to compare it to the hide of an elephant. 
+        <br /><br /> The form of the house is simple and monolithic, portrayed as if in the midst of an archaeological dig, propped up on wooden supports as the interior, rendered in red handmade brick, is revealed through the process of subtraction. 
+        The deck between the house and garage creates an open air plaza, upon which the ever-present breeze can be enjoyed.
+        <br /><br />Featured on the <a href='http://app.aiaaustinhomestour.com/Architects136' target='_blank'>AIA Austin Homes Tour</a>
+        <br /><br />Featured in the Nov/Dec issue of <a href='http://txamagazine.org/2017/11/17/the-elephant/' target='_blank'>Texas Architect</a>
+        <br /><br />Photography Credit: Leonid Furmansky"
 - title: "Court Houses"
   title_detail: "Court Houses"
   slug: "court-houses"
@@ -15,18 +22,27 @@
   cover: "./court-houses/court-houses02.jpg"
   desc: "Court Houses are the result of our desire to increase density within the urban core of Austin. Instead of building one single family residence on a city lot, we built two.<br /><br />The lot is on a corner, which provided separate points of access. The surrounding neighborhood context is a mixture of residential projects and city and private development infrastructure. This infrastructure, located across each street forming the corner, informed a courtyard design for the houses as a way to mitigate their presence and provide a private refuge.<br /><br />Formally each house is an L, opposing one another to create a perimeter boundary surrounding an internal courtyard. The courtyard is bisected by a mixed red handmade brick wall as it weaves through the property, providing both physical and visual separation between each house, as well as a contrast to the smooth steel troweled white stucco used to clad the houses.<br /><br />The first floors are separated, and these opposing separations provide passage into the courtyard and subsequent entry for each house. The second floors are joined above these exterior passages due to zoning restrictions, however distinct separation is achieved through framing and ceiling heights."
 - title: "Edgewater House"
-  title_detail: "Black & White - Superb art"
-  slug: "black-and-white-superb-art"
+  title_detail: "Edgewater House"
+  slug: "edgewater-house"
   category: "Residential"
   color: "white"
-  images: "bw"
-  cover: "./bw/projects-bw-001.jpg"
-  desc: "Monochrome photography is photography where each position on an image can record and show a different amount of light, but not a different hue. It includes all forms of black-and-white photography, which produce images containing tones of neutral grey ranging from black to white."
+  images: "edgewater-house"
+  cover: "./edgewater-house/edgewaterphoto08.jpg"
+  desc: "Located on Lake Austin, this single family residence is designed to provide a seamless relationship to the water. With large steel spans floating over curtain walls of glass, the connection to the river is always present. From passive orientation and siting to the most contemporary techniques of energy conscious construction, this home strives to use the knowlegde of many to reduce the impact of a few.
+          <br /><br />Photography Credit: Leonid Furmansky"
 - title: "Pine House"
-  title_detail: "Breakfast - The most important time of the day"
-  slug: "breakfast"
+  title_detail: "Pine House"
+  slug: "pine-house"
   category: "Residential"
   color: "white"
   images: "breakfast"
   cover: "./breakfast/projects-breakfast-001.jpg"
+  desc: "<a href='http://txamagazine.org/2017/11/17/the-elephant/'>Texas Architect</a>"
+- title: "Shadow House"
+  title_detail: "A contemporary addition, designed to recede into the canopy of some existing trees, in an effort to cause the addition to become integrated into the surrounding foliage."
+  slug: "shadow-house"
+  category: "Residential"
+  color: "white"
+  images: "shadow-house"
+  cover: "./shadow-house/shadow-house01.jpg"
   desc: "The first meal of the day."

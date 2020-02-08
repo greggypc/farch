@@ -79,11 +79,11 @@ const GlobalStyles = createGlobalStyle`
   }
   a {
     transition: all 0.3s ease-in-out;
-    color: black;
-    text-decoration: underline;
+    color: #ff0000;
+    text-decoration: none;
     &:hover,
     &:focus {
-      color: ${theme.colors.primary};
+      color: ${theme.colors.grey};
     }
   }
   

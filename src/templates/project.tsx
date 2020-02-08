@@ -40,7 +40,7 @@ const Description = styled(animated.div)`
 `
 
 const PButton = styled(Button)<{ color: string }>`
-  background: ${props => (props.color === 'white' ? 'black' : props.color)};
+  background: ${props => (props.color === 'white' ? 'grey' : props.color)};
   color: ${props => readableColor(props.color === 'white' ? 'black' : props.color)};
 `
 
@@ -120,9 +120,9 @@ const Project: React.FunctionComponent<PageProps> = ({ data: { project, images }
         </PBox>
       </Content>
       <PBox style={{ textAlign: 'center' }} py={10} px={[6, 6, 8, 10]}>
-        <h2>Want to start your own project?</h2>
+        <h2>Want to put anything here Sean?</h2>
         <PButton color={project.color} py={4} px={8}>
-          Contact Us
+          Contact F+W
         </PButton>
       </PBox>
     </Layout>
