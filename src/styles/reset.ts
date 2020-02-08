@@ -116,6 +116,11 @@ const reset = css`
     vertical-align: middle;
     border-style: none;
   }
+  #img-border {
+    border-style: solid;
+    border-color: #f5f5f5;
+    border-width: 0px 0px 3px 3px;
+  }
   [role='button'] {
     cursor: pointer;
   }
