@@ -35,9 +35,25 @@
   slug: "pine-house"
   category: "Residential"
   color: "white"
-  images: "breakfast"
-  cover: "./breakfast/projects-breakfast-001.jpg"
-  desc: "<a href='http://txamagazine.org/2017/11/17/the-elephant/'>Texas Architect</a>"
+  images: "pine-house"
+  cover: "./pine-house/pine-house-01.jpg"
+  desc: "Pine House is the result of a close collaboration between Client, Architect and Builder. 
+        From the outset, the primary goal was to create an interesting and unique home for a budget that challenged the 
+        development conventions of Austin. The result is a 2,060 SF residence for a young family of four, 
+        built for $129/SF materials and labor.
+        <br />,br />
+        We used affordable, readily available materials and put them together thoughtfully, 
+        allowing the architecture to be more completely expressed though form and rhythm.
+        <br /><br />
+        The site provided challenges, though they were roundly embraced. The corner lot mandated more stringent setbacks, 
+        leaving only 10 feet of buildable width along the alley. As a result the house is 19 feet wide tapering down along it's 79 foot length.
+        <br /><br />
+        From valuable front end consultation with the Builder through unbelievable craftsmanship of the finish carpenter, 
+        Pine House is an example of compelling architecture for reasonable means.
+        <br /><br />
+        <strong>Published in the November 2014 issue of <a href='http://txamagazine.org/2017/11/17/the-elephant/'>Dwell</a> Magazine.</strong>
+        <br /><br />
+        Photography Credit: Ryann Ford"
 - title: "Shadow House"
   title_detail: "Shadow House"
   slug: "shadow-house"
