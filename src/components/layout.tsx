@@ -122,8 +122,8 @@ const SideBarInner = styled(Box)<{ bg: string }>`
 
   background: ${props => props.bg};
 
-  @media (max-width: ${props => props.theme.breakpoints[4]}) {
-    width: ${props => props.theme.sidebarWidth.normal};
+  @media (max-width: ${props => props.theme.breakpoints[2]}) {
+    width: ${props => props.theme.sidebarWidth.big};
   }
 
   @media (max-width: ${props => props.theme.breakpoints[2]}) {
@@ -229,7 +229,7 @@ const Layout = ({ children, color }: LayoutProps) => {
               justifyContent="space-between"
             >
               <Box width={['3rem', '4rem', '5rem', '6rem']}>
-                <Link to="/" aria-label="Faye + Walker Home">
+                <Link to="/" aria-label="Faye + Walker Architecture">
                   <Logo />
                 </Link>
               </Box>
@@ -252,8 +252,9 @@ const Layout = ({ children, color }: LayoutProps) => {
           <Main>{children}</Main>
           <Footer color={color}>
             <Box p={[6, 6, 8]} fontSize={0}>
-              {/* Starter by <a href="https://www.lekoarts.de/en">LekoArts</a>.<br />
-              <a href="https://github.com/LekoArts/gatsby-starter-portfolio-jodie">Source</a>. */}
+              Faye + Walker Architecture<br />
+              1224 East 12th Street Suite 314S<br />Austin, Texas 78702<br />
+t: (512) 656-0300<br /><a href="https://www.instagram.com/fayeandwalker/" target="_blank">Instagram</a>
             </Box>
           </Footer>
         </Wrapper>

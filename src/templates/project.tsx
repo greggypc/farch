@@ -17,7 +17,7 @@ const Content = styled(Box)<{ bg: string }>`
   background-color: ${props => transparentize(0.9, props.bg)};
 
   .gatsby-image-wrapper:not(:last-child) {
-    margin-bottom: ${props => props.theme.space[10]};
+    margin-bottom: ${props => props.theme.space[8]};
 
     @media (max-width: ${props => props.theme.breakpoints[3]}) {
       margin-bottom: ${props => props.theme.space[8]};
@@ -119,12 +119,12 @@ const Project: React.FunctionComponent<PageProps> = ({ data: { project, images }
           ))}
         </PBox>
       </Content>
-      <PBox style={{ textAlign: 'center' }} py={10} px={[6, 6, 8, 10]}>
+      {/* <PBox style={{ textAlign: 'center' }} py={10} px={[6, 6, 8, 10]}>
         <h2>Want to put anything here Sean?</h2>
         <PButton color={project.color} py={4} px={8}>
           Contact F+W
         </PButton>
-      </PBox>
+      </PBox> */}
     </Layout>
   )
 }

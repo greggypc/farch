@@ -22,9 +22,15 @@ type PageProps = {
 
 const Area = styled(animated.div)`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 50vw;
 
+  /* 1200px - 2 projects per row */
+  @media (max-width: ${props => props.theme.breakpoints[3]}) {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 60vw;
+  }
+  /* 1000px - 1 project per row */
   @media (max-width: ${props => props.theme.breakpoints[2]}) {
     grid-template-columns: 1fr;
     grid-auto-rows: 60vw;
@@ -40,12 +46,12 @@ const Projects: React.FunctionComponent<PageProps> = ({ data: { projects } }) =>
 
   return (
     <Layout color="#f5f5f5">
-      <SEO title="Projects | Faye + Walker Architects" />
+      <SEO title="Projects | Faye + Walker Architecture" />
       <Area style={pageAnimation}>
         {projects.nodes.map(project => (
           <GridItem id="img-border" key={project.slug} to={project.slug} aria-label={`View project "${project.title}"`}>
             <Img fluid={project.cover.childImageSharp.fluid} />
-            <span>{project.title}</span>
+            <span>{project.title_detail}</span>
           </GridItem>
         ))}
       </Area>
@@ -60,6 +66,7 @@ export const query = graphql`
     projects: allProjectsYaml {
       nodes {
         title
+        title_detail
         slug
         cover {
           childImageSharp {

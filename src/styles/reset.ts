@@ -116,11 +116,32 @@ const reset = css`
     vertical-align: middle;
     border-style: none;
   }
+
+  /* 1000px/Tablet - 1 project per row / maintain 40px padding on bottom and sides */
+  /* @media (max-width: ${props => props.theme.breakpoints[2]}) {
+  img {
+    width: 70%;
+  }
+  } */
+  /* #home-featured-image {
+    width: 200px;
+  } */
+
   #img-border {
     border-style: solid;
     border-color: #f5f5f5;
-    border-width: 0px 0px 3px 3px;
+    border-width: 40px 40px 0px 0px;
   }
+
+  /* 1000px/Tablet - 1 project per row / maintain 40px padding on bottom and sides */
+  @media (max-width: ${props => props.theme.breakpoints[2]}) {
+  #img-border {
+    border-style: solid;
+    border-color: #f5f5f5;
+    border-width: 0px 40px 40px 40px;
+  }
+  }
+
   [role='button'] {
     cursor: pointer;
   }

@@ -5,14 +5,16 @@ const GridItem = styled(Link)`
   position: relative;
   > div {
     position: absolute !important;
-    top: 0;
+    top: 0px;
     right: 0;
     bottom: 0;
     left: 0;
   }
   > div img {
-    transition: all 0.3s ease 0s !important;
+    /* transition: all 0.3s ease 0s !important; */
   }
+
+    /* Project name across project images */
   > span {
     z-index: 10;
     color: white;
@@ -20,19 +22,19 @@ const GridItem = styled(Link)`
     left: 0;
     right: 0;
     text-align: right;
-    font-weight: 700;
-    font-size: ${props => props.theme.fontSizes[4]};
-    padding: ${props => props.theme.space[6]};
+    font-weight: 500;
+    font-size: ${props => props.theme.fontSizes[2]};
+    padding: ${props => props.theme.space[4]};
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
-    @media (max-width: ${props => props.theme.breakpoints[3]}) {
-      font-size: ${props => props.theme.fontSizes[3]};
-      padding: ${props => props.theme.space[5]};
+    @media (max-width: ${props => props.theme.breakpoints[1]}) {
+      font-size: ${props => props.theme.fontSizes[1]};
+      padding: ${props => props.theme.space[3]};
     }
   }
   &:hover {
     > div img {
-      transform: scale(1.1);
+      /* transform: scale(1.1); */
     }
   }
 `

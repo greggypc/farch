@@ -2,9 +2,6 @@
   link: "/projects"
 - name: "Profile"
   link: "/profile"
-- name: "Endeavors"
-  link: "/endeavors"
 - name: "Contact"
   link: "/contact"
-- name: "Another"
-  link: "/contact"
+
