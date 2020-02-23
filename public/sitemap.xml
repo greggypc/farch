@@ -6,7 +6,9 @@
 <url> <loc>https://www.fayeandwalker.com/pine-house</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fayeandwalker.com/shadow-house</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fayeandwalker.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.fayeandwalker.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fayeandwalker.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fayeandwalker.com/instagram/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.fayeandwalker.com/profile/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.fayeandwalker.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
