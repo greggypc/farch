@@ -67,3 +67,4 @@ yarn-error.log
 cypress/e2e/build
 
 .DS_Store
+fw-propjects/
